@@ -1,4 +1,8 @@
 ﻿int number = int.Parse(Console.ReadLine());
+if (number < 1 | nameof > 7)
+{
+    Console.WriteLine("неправильное число");
+}
 if (number == 1)
 {
     Console.WriteLine("понедельник");
